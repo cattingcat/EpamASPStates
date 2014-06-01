@@ -61,6 +61,7 @@
     <Content Include="CacheState.aspx" />
     <Content Include="CookiesState.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HiddenFieldState.aspx" />
     <Content Include="OutputCacheState.aspx" />
     <Content Include="ProfileState.aspx" />
     <Content Include="QueryStringState.aspx" />
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HiddenFieldState.aspx.cs">
+      <DependentUpon>HiddenFieldState.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HiddenFieldState.aspx.designer.cs">
+      <DependentUpon>HiddenFieldState.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyProfileProvider.cs" />
     <Compile Include="OutputCacheState.aspx.cs">
